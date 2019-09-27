@@ -29,7 +29,7 @@ public class Botones {
     public void setColor (String nombreColor){
         color = nombreColor;
     }
-    //Método para obtener logo
+    //Método para obtener Color
     public String getColor (){
         return color;
     }
