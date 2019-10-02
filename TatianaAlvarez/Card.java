@@ -9,7 +9,7 @@ public class Card {
         While (cant >0) {
             System.out.println("Ingresa la cantidad de ");
         }
-
+ 
         Boton button = new Boton();
         button.setColor("Rojo");
         button.setName("Instagram");
