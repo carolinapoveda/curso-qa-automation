@@ -11,7 +11,7 @@ public class Button {
     public Button() {
     }
 
-    //Declarar un constructor, sirve para inicializar un objeto
+   /* //Declarar un constructor, sirve para inicializar un objeto
     public Button(String name1, String url1){ //Parametros obligatroios
         name = name1;
         url = url1;
@@ -26,6 +26,10 @@ public class Button {
         color = "blue";
         logo = "http://lees.fe.uni-lj.si/uploads/default-logo.png";
         new_window = true;
+    }*/
+
+    public Button(String logo) {
+        logo = "http://lees.fe.uni-lj.si/uploads/default-logo.png";
     }
 
     //Set ayuda acceder al atributo y definir un valor
