@@ -1,38 +1,21 @@
 package web.components;
 
-public class Button {
+public class Botones {
+
     private String name;
     private String color;
     private String logo;
     private String url;
     private boolean new_window;
 
-
-    public Button() {
-    }
-
-   /* //Declarar un constructor, sirve para inicializar un objeto
-    public Button(String name1, String url1){ //Parametros obligatroios
+    //Declarate a constructor
+    public  Botones(String name1, String url1){
         name = name1;
         url = url1;
         color = "blue";
-        logo = "http://lees.fe.uni-lj.si/uploads/default-logo.png";
+        logo = "http://www.nashikproperty.com/uploads/builder-logo/default-logo.png";
         new_window = true;
     }
-
-    public Button(String url1){ //Parametros obligatroios
-        name = "Name default";
-        url = url1;
-        color = "blue";
-        logo = "http://lees.fe.uni-lj.si/uploads/default-logo.png";
-        new_window = true;
-    }*/
-
-    public Button(String logo) {
-        logo = "http://lees.fe.uni-lj.si/uploads/default-logo.png";
-    }
-
-    //Set ayuda acceder al atributo y definir un valor
     public void setName(String name) {
         this.name = name;
     }
@@ -53,7 +36,6 @@ public class Button {
         this.new_window = new_window;
     }
 
-    //Get ayuda acceder al atributo y obtener un valor
     public String getName() {
         return name;
     }
@@ -73,4 +55,9 @@ public class Button {
     public boolean isNew_window() {
         return new_window;
     }
+
 }
+
+
+
+
